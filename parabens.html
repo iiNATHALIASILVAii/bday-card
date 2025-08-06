@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>PARABÉNS MEDU!</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+            font-family: 'Comic Sans MS', cursive;
+            text-align: center;
+            padding-top: 10%;
+            color: #fff;
+            animation: fadeIn 2s ease-in;
+        }
+
+        h1 {
+            font-size: 3rem;
+            animation: bounce 1s infinite;
+        }
+
+        button {
+            margin-top: 2rem;
+            padding: 0.7rem 1.5rem;
+            font-size: 1rem;
+            border: none;
+            border-radius: 10px;
+            background-color: #ff6392;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ff4070;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Feliz aniversário, Medu 🎉💖</h1>
+    <p>Você é incrível! Espero que esse cartãozinho te faça sorrir 😊</p>
+
+    <!-- Botão ajustado -->
+    <button onclick="voltarInicio()">Voltar pra ver se sou a Medu</button>
+
+    <script>
+        function voltarInicio() {
+            window.location.href = 'index.html'; 
+        }
+    </script>
+</body>
+</html>
