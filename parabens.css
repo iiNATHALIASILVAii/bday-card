@@ -36,14 +36,14 @@ body::before {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center; /* Deve centralizar os filhos horizontalmente */
 }
 
 h1 {
   font-size: 2.5rem;
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   animation: bounce 1s infinite;
 }
 
