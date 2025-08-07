@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="parabens.css" />
+
+    <title>PARABÉNS MEDU!</title>
+  </head>
+  <body>
+    <main class="content-container">
+      <h1>Feliz aniversário, Medu 🎉💖</h1>
+      <p>Você é incrível! Espero que esse cartãozinho te faça sorrir 😊</p>
+
+      <div class="progress-bar">
+        <div class="progress-fill" id="real-progress"></div>
+      </div>
+
+      <div class="music-player-container">
+        <p id="song-title">Carregando música...</p>
+        <div class="controls">
+          <button id="prev">⏮</button>
+          <button id="play">▶</button>
+          <button id="next">⏭</button>
+        </div>
+      </div>
+
+      <!-- Botão ajustado -->
+      <div class="footer-container">
+        <button onclick="voltarInicio()">Voltar pra ver se sou a Medu</button>
+      </div>
+    </main>
+
+    <script>
+      function voltarInicio() {
+        window.location.href = "index.html";
+      }
+    </script>
+    <script src="playlist.js"></script>
+  </body>
+</html>

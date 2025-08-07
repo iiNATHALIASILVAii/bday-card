@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+}
+
+.card-header h1 {
+  font-size: 1.8rem;
+  color: #d46877;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.main-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+.main-menu li {
+  margin: 1rem 0;
+}
+
+button {
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #ff6392;
+  color: white;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff4070;
+}
+
+.mensagem-escondida {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #6b0f1a;
+  background-color: #ffe6ec;
+  padding: 1rem;
+  border-radius: 10px;
+  display: none;
+  animation: all 0.5s ease forwards;
+}
+
+.card-footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.card-footer h2 {
+  letter-spacing: 2px;
+  color: #e47e8b;
+}
+
+.card-footer a {
+  color: #ee9ca7;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .card-container {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .card-header h1 {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .card-footer h2 {
+    font-size: 1rem;
+  }
+
+  .card-footer p,
+  .mensagem-escondida {
+    font-size: 0.85rem;
+  }
+}
