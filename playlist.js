@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
     { title: "Solo Envolvente", src: "musicas/Solo Envolvente.mp3" },
     { title: "Pump Up The Jam", src: "musicas/Pump Up The Jam.mp3" },
     { title: "HEYYEYAAEYAAAEYAEYAA", src: "musicas/HEYYEYAAEYAAAEYAEYAA.mp3" },
+    { title: "Russian Kid Dancing", src: "musicas/Russian Kid Dancing.mp3" },
+    { title: "Lambada", src: "musicas/Lambada.mp3" },
   ];
 
   let currentSongIndex = 0;

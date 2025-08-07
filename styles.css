@@ -13,10 +13,10 @@ body {
   background: white;
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-  padding: 2rem;
+  padding: 3rem 2rem; /* Alterado de 2rem pra 3rem 2rem */
   text-align: center;
-  width: 90%;
-  max-width: 600px;
+  width: 95%;
+  max-width: 650px;
 }
 
 .card-header h1 {
