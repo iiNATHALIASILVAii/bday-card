@@ -23,7 +23,7 @@ body {
   font-size: 1.8rem;
   color: #d46877;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 .main-menu {
@@ -105,6 +105,7 @@ button:hover {
 
   .card-footer p,
   .mensagem-escondida {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
+    line-height: 1.4; /* Ajuste espaçamento entre linhas */
   }
 }
