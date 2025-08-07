@@ -1,12 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
   const songs = [
-    {
-      title: "Nothing Beats a Jet2holiday",
-      src: "musicas/Nothing Beats a Jet2holiday.mp3",
-    },
+    { title: "Pump Up The Jam", src: "musicas/Pump Up The Jam.mp3" },
+    { title: "Nothing Beats a Jet2holiday", src: "musicas/Nothing Beats a Jet2holiday.mp3",},
     { title: "Epic Sax Guy Loop", src: "musicas/Epic Sax Guy Loop.mp3" },
-    { title: "Barbie Girl - Aqua", src: "musicas/barbie-girl.mp3" },
-    { title: "Some Cute Love Song", src: "musicas/cute-love.mp3" },
+    { title: "HEYYEYAAEYAAAEYAEYAA", src: "musicas/HEYYEYAAEYAAAEYAEYAA.mp3" },
+    { title: "Solo Envolvente", src: "musicas/Solo Envolvente.mp3" },
   ];
 
   let currentSongIndex = 0;
